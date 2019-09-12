@@ -56,7 +56,7 @@ http {
     keepalive_timeout  0;
 
     server {
-      listen 8080;
+      listen 80;
 
       root /usr/share/nginx/html;
       index /index.html;
