@@ -66,10 +66,6 @@ http {
       add_header X-Frame-Options "DENY" always;
       add_header X-Content-Type-Options nosniff always;
 
-      location / {
-        return 200 '{"success":true}';
-      }
-
       location ~* \.(?:html?/json)$ {
         expires -1;
       }
